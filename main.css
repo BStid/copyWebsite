@@ -1,0 +1,90 @@
+body {
+  background-color: #0828cc;
+  background-image: url("backgroundimg.png");
+}
+.outerDiv {
+  height: 80vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+nav {
+  height: 58px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.navButton {
+  font-family: aktiv-grotesk, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 17px;
+  padding: 30px;
+  margin: 34px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#subscribe {
+  border: white solid 1px;
+  border-radius: 56px;
+  padding: 20px 16px 37px 30px;
+  width: 90px;
+  margin: 43px 28px 0px 43px;
+}
+
+#subscribe:hover {
+  background-color: white;
+  border-radius: 56px;
+  font-weight: bold;
+  color: #0828cc;
+  border: 1px solid whitesmoke;
+  /* letter-spacing: 1px; */
+  box-shadow: 2px 3px 11px 1px rgba(0, 0, 0, 0.25);
+  transition: 0.7s;
+  cursor: pointer;
+}
+.title {
+  text-align: center;
+  font-weight: bold;
+  font-family: arial;
+  letter-spacing: 5px;
+  font-size: 60px;
+}
+.innerDiv {
+  position: absolute;
+  top: 300px;
+  margin: 5px 30px;
+  color: white;
+}
+p {
+  text-align: center;
+  letter-spacing: 2px;
+  font-family: "Montserrat";
+  font-weight: 100;
+  font-size: 15px;
+  line-height: 25px;
+}
+.newPlaceButton {
+  position: relative;
+  justify-content: center;
+  left: 507px;
+  width: 180px;
+  height: 200px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 65px;
+  font-weight: bold;
+  color: rgb(8, 40, 204);
+  border: 1px solid rgb(245, 245, 245);
+  /* letter-spacing: 1px; */
+  box-shadow: 2px 3px 11px 1px rgba(0, 0, 0, 0.25);
+  transition: 0.7s;
+  margin-top: 27px;
+  height: 13px;
+  vertical-align: middle;
+  cursor: pointer;
+  padding: 16px;
+  text-align: center;
+}
