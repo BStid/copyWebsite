@@ -88,3 +88,19 @@ p {
   padding: 16px;
   text-align: center;
 }
+
+.icon {
+  height: 80px;
+  width: 80px;
+  position: relative;
+  left: 568px;
+  justify-content: center;
+  align-items: center;
+}
+#topLefticon {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  top: 45px;
+  left: 45px;
+}
